@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  color: rgb(44, 44, 44);
+  vertical-align: middle;
+  text-shadow: rgb(0 0 0 / 0%) 1px 1px 1px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  transition: 0.5 ease;
+}
+section {
+    padding:  100px 200px;
+}
+
+footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: auto;
+  padding: 50px 30px;
+  background: #111;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+footer .container .noi-dung{
+  margin-right: 30px;
+}
+
+footer  .container .noi-dung.about{
+  width:40%;
+}
+footer .container .noi-dung.about h2{
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+footer .container .noi-dung.about h2:before{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #f00;
+}
+
+footer .container .noi-dung.about p{
+  color: #999;
+}
